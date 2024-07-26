@@ -2,6 +2,7 @@
  
 # internet hoạt động như thế nào 
 **Một số khái niệm cần biết:**
+
     * Internet là gì? Internet mạng lưới một mạng lưới toàn cầu gồm các máy tính được kết nối với nhau và giao tiếp thông qua một bộ giao thức được tiêu chuẩn hóa.
     * địa chỉ ip là địa chỉ của các thiết bị trên internet mỗi thiết bị sẽ có 1 địa chỉ ip.
     * DNS (Domain Name System) là hệ thống phân giải tên miền nó giống như danh bạ điện thoại mỗi tên miền đại diện cho 1 dịa chỉ ip
