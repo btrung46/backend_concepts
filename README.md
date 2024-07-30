@@ -1,5 +1,3 @@
-# backend_concepts
- 
 # internet hoạt động như thế nào 
 **Một số khái niệm cần biết:**
 
@@ -9,4 +7,80 @@
 
 -DNS (Domain Name System) là hệ thống phân giải tên miền nó giống như danh bạ điện thoại mỗi tên miền đại diện cho 1 dịa chỉ ip
 
-Thông tin được truyền như thế nào trên internet. Khi bạn truy cập một trang web ví dụ youtube.com thì tên miền youtube.com sẽ được gửi tới máy chủ DNS để tìm địa chỉ ip của nó. Sau khi tìm được địa chỉ ip sẽ được gửi về trình duyệt và sau đó trình duyệt đi đến địa chỉ ip đó và đi đến trung tâm dữ liệu để lấy trang web mà bạn yêu cầu. Trang web này sẽ được gửi đến bạn đưới dạng nhị phân thông qua cáp quang rồi đến router sau đó là thiết bị của bạn
+**Thông tin được truyền như thế nào trên internet**
+
+ Khi bạn truy cập một trang web ví dụ youtube.com thì tên miền youtube.com sẽ được gửi tới máy chủ DNS để tìm địa chỉ ip của nó. Sau khi tìm được địa chỉ ip sẽ được gửi về trình duyệt và sau đó trình duyệt đi đến địa chỉ ip đó và đi đến trung tâm dữ liệu để lấy trang web mà bạn yêu cầu. Trang web này sẽ được gửi đến bạn đưới dạng nhị phân thông qua cáp quang rồi đến router sau đó là thiết bị của bạn
+
+# http là gì???
+Http (hyper text Transfer Protocol) là giao thức chịu trách nhiệm liên lạc giữa máy chủ vào máy khách
+
+Http là không có trạng thái nghĩa là mỗi request là hoàn toàn độc lập
+
+Https (hyper text Transfer Protocol Secure) là phiên bản bảo mật hơn của http mọi dữ liệu gửi đều được mã hóa 
+
+# Http methods:
+
+-GET: lấy data từ sever
+
+-POST: gửi data đến sever 
+
+-PUT: cập nhật data trên sever
+
+-DELETE: xóa data ở trên sever
+
+# http header fields
+
+**-General:**
+
++Request URL
+
++Request Method
+
++Status Code
+
++Remote Address
+
++Referrer Policy
+
+**-Response:**
+
++Sever
+
++Set-cookie
+
++Content Type
+
++Content Length
+
++Date 
+
+**-Request:**
+
++Cookies
+
++Accept-xxx
+
++Content Type
+
++Content Length
+
++Authorization
+
++User Agent
+
++Referrer
+
+# Http status code
+
+1xx: Informational
+
+2xx: Success
+
+3xx: Redirect
+
+4xx: client Error
+
+5xx: Server Error
+
+
+
