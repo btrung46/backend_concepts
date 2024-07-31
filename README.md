@@ -82,5 +82,26 @@ Https (hyper text Transfer Protocol Secure) là phiên bản bảo mật hơn c�
 
 5xx: Server Error
 
+# web hosting là gì??
+
+Web hosting là nơi lưu trữ toàn bộ trang web của bạn, nó sẽ giúp các trang web có thể truy cập được bằng internet
+
+**các loại web hosting**
+
+- Shared hosting: đơn giản là website của bạn sẽ được lưu trữ cùng với rất nhiều website khác, do đó chi phí bỏ ra khá là rẻ. Tuy nhiên, tài nguyên là 1 vấn đề vì website của bạn phải chia sẻ với nhiều website khác
+
+- VPS hosting(virual private server) là máy chủ riêng ảo nhưng chia sẻ chung phần cứng vật lý với các máy chủ ảo khác, về cơ bản khi sử dụng dịch vụ này thì bạn sẽ được cung cấp X RAM, X CPU của riêng bạn không dung chung với bất cử máy chủ riêng ảo nào khác
+
+- Dedicated Server: là máy chủ vật lý riêng của bạn 
+
+**phân biệt web page, website, web server, search engine**
+
+- Web page là tài liệu đơn giản được hiển thị bằng trình duyệt. Các tài liệu này thường được viết bằng html
+
+- Website là tập hợp các web page được liên kết có chung tên miền duy nhất
+
+- Web server là máy lưu trữ 1 hoặc nhiều trang web khác nhau.
+
+- Search engines là trang web đặc biệt giúp người dùng tìm kiếm những trang web khác
 
 
