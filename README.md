@@ -104,4 +104,37 @@ Web hosting là nơi lưu trữ toàn bộ trang web của bạn, nó sẽ giúp
 
 - Search engines là trang web đặc biệt giúp người dùng tìm kiếm những trang web khác
 
+# Web Browser
+
+Web Browser là 1 phần mềm cho phép người dùng truy cập hoặc hiển thị các trang web thông qua giao diện đồ họa của nó 
+
+Thành phần của Web Browser:
+
+- User Interface: User Interface giúp người dùng cuối tương tác với các yếu tố trưc quan có sẵn trên trang web ví dụ như: nút home, nút next, thanh địa chỉ...
+
+- Browser Engine: Browser Engine là phần trung gian giữa User Interface và  Rendering Engine. Nó truy vấn và xử lý  Rendering Engine theo thông tin nhận được từ User Interface. Hiệu suất và tính năng của Browser Engine ảnh hưởng lớn đến trải nhiện duyện web của người dùng
+
+- Rendering Engine: Rendering Engine sẽ hiển thị trang web cụ thể được yêu cầu bởi người dùng. Tất cả Web Browser đều có  Rendering Engine riêng và chúng cũng có thể khác nhau với các phiên bản khác nhau của trình duyện 
+
+- Networking: Networking chịu trách nhiệm quản lý các yêu cầu bằng giao thức tiêu chuẩn như http or ftp
+
+- JavaScript Interpreter: JavaScript Interpreter chịu trách nhiệm phân tích và thực thi mã javaScript được nhúng trong trang web
+
+- UI backend: UI backend sử dụng các phương thức giao diện người dùng của hệ điều hành cơ bản. Nó chủ yếu được sử dụng để vẽ các vật dụng cơ bản
+
+- Data Storage/Persistence: Trình duyệt web cần lưu trữ cục bộ nhiều loại dữ liệu khác nhau, ví dụ: cookie. Do đó, các trình duyệt phải tương thích với các cơ chế lưu trữ dữ liệu như WebSQL, IndexedDB, FileSystem, v.v.
+
+**basic render flow**
+
+![alt text](image.png)
+
+- Trang HTML được yêu cầu được phân tích cú pháp theo từng đoạn, bao gồm các tệp CSS bên ngoài và các phần tử kiểu, bởi công cụ kết xuất. Sau đó, các phần tử HTML được chuyển đổi thành các nút DOM để tạo thành “cây nội dung” hoặc “cây DOM”.
+
+- Đồng thời, trình duyệt cũng tạo cây kết xuất. Cây này bao gồm cả thông tin về kiểu dáng cũng như hướng dẫn trực quan xác định thứ tự các phần tử sẽ được hiển thị. Cây kết xuất đảm bảo rằng nội dung được hiển thị theo thứ tự mong muốn.
+
+- Hơn nữa, cây kết xuất sẽ trải qua quá trình bố cục. Khi cây hiển thị được tạo, giá trị vị trí hoặc kích thước không được chỉ định. Toàn bộ quá trình tính toán các giá trị để đánh giá vị trí mong muốn được gọi là quy trình bố trí. Trong quá trình này, mỗi nút được gán tọa độ chính xác. Điều này đảm bảo rằng mọi nút xuất hiện ở vị trí chính xác trên màn hình.
+
+- Bước cuối cùng là vẽ màn hình, trong đó cây kết xuất được duyệt qua và phương thức Paint() của trình kết xuất được gọi, phương thức này sẽ vẽ từng nút trên màn hình bằng cách sử dụng lớp phụ trợ giao diện người dùng.
+
+
 
