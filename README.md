@@ -136,5 +136,53 @@ Thành phần của Web Browser:
 
 - Bước cuối cùng là vẽ màn hình, trong đó cây kết xuất được duyệt qua và phương thức Paint() của trình kết xuất được gọi, phương thức này sẽ vẽ từng nút trên màn hình bằng cách sử dụng lớp phụ trợ giao diện người dùng.
 
+# GIT
+
+git là hệ thống kiểm soát phiên bản phổ biến trên thế giới 
+
+git đươc sử dụng cho:
+- kiểm tra sự thay đổi mã
+
+- kiểm tra ai là người thực hiện sự thay đổi
+
+- hợp tác mã 
+
+git đươc sử dụng để:
+ 
+- quản ký dự án với repo 
+
+- sao chép dự án để làm việc trên 1 bản sao cục bộ
+
+- điều khiển và theo dõi sự thay đổi với Staging and Committing
+
+- Branch and Merge cho phép làm việc trên những phần và phiên bản khác nhau của dự án
+
+- Pull lấy phiên bản mới nhất của dự án về bản sao cục bộ 
+
+- push đẩy các bản cập nhật mới vào dự án chính
+
+# một số lệnh phổ biến trong git 
+
+git init: tạo kho lưu trữ rỗng 
+
+git status: kiểm tra trạng thái git 
+
+git add .: thêm tất cả các tệp có thay đổi vào môi trường trạng thái
+
+git commit + message: lấy các tệp trong môi trường trạng thái chuyển vào kho lưu trư cục bộ 
+
+git push: đẩy kho lưu trữ cục bộ lên kho lưu trữ từ xa
+
+git pull: lấy phiên bản mới nhất của dự án về bản sao cục bộ
+
+git clone: sao chép 1 kho lưu trữ từ xa và lưu vào folder mà bạn chọn
+
+git branch + tên nhánh: tạo 1 nhánh mới 
+
+git checkout + tên nhánh: chuyển đến nhánh được chỉ định
+
+
+
+
 
 
